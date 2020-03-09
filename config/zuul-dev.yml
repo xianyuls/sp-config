@@ -20,10 +20,10 @@ eureka:
 zuul:
   retryable: true
   sensitive-headers: 
-#  routes:
-#    item-service: /item-service/**
-#    user-service: /user-service/**
-#    order-service: /order-service/**    
+  routes:
+    item-service: /item-service/**
+    user-service: /user-service/**
+    order-service: /order-service/**    
 
 ribbon:
   ConnectTimeout: 1000
